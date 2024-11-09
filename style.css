@@ -1,0 +1,169 @@
+.body{
+    background-color: rgb(175, 220, 219);
+}
+
+  
+
+.cv{
+    position: absolute;
+    margin: 111px auto;
+    bottom:90px;
+    left: 500px;
+    padding: 100px;
+    padding-top: 50px;
+}
+.cv2 img{
+   max-width: 250px;
+   margin-top: 80px;
+   height: 20vh;
+   border: 1px solid blue;
+   border-radius: 80px;
+   margin-left: 550px;
+ 
+}
+.cv2 img:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+p{
+    margin-left: 80px;
+    font-size: 20px;
+    color: rgb(21, 17, 17);
+    font-weight: bold;
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin:10px;
+    padding-left: 70px;
+    color: #0008ff;
+}
+.btn{
+    border: 1px solid rgb(0, 17, 255) ;
+    font-size: 16px;
+    color: rgb(9, 3, 3);
+    transition: 0.5s;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 35px;
+    padding: 10px;
+    margin-left: 80px;
+}
+.btn:hover{
+    background-color: #0400ff;
+    color: rgb(240, 235, 235);
+}
+
+.welcome h1{
+  
+  font-size: 50px;
+  font-weight: 600;  
+  margin-top: 200px;
+  margin-left: 650px;
+  animation-name: welcome;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes welcome{
+    0%{
+        opacity: 1;
+        color: #0000ff;
+        transition: 0.4s;
+    }
+    25%{
+        color: rgb(17, 33, 215);
+        transition: 0.2s;
+        opacity: 0;
+    }
+    50%{
+     opacity: 0;
+     color: #1710d6;
+    }
+    100%{
+        opacity: 1;
+        color: #060605;
+    }
+}
+
+
+.cv{
+    border: 1px solid rgb(10, 28, 231);
+    border-radius: 300px;
+    margin-left:140px ;
+    z-index: -1;
+}
+
+
+
+#dark{
+    position: absolute;
+    top: 80%;
+    right: 48%;
+    padding: 20px;
+    border-radius: 50%;
+    background-color:rgb(17, 0, 255);
+    color: white;
+}
+
+
+
+
+/* 
+
+@media screen and (min-width:401px) and (max-width:1024px){
+    
+    .body{
+     background-color: red; 
+ 
+    }
+   
+    .cv2 img{
+    width:180px; 
+    margin-left: 390px;
+    }
+    .cv{
+        position: absolute;
+        margin: 111px auto;
+        bottom:90px;
+        left: 500px;
+        padding: 100px;
+        padding-top: 50px;
+    }
+    #dark{
+        position: absolute;
+        top: 80%;
+        right: 18%;
+        padding: 20px;
+        border-radius: 50%;
+        background-color:rgb(17, 0, 255);
+        color: white;
+    }
+    .welcome h1{
+        font-size: 40px;
+        font-weight: 600;  
+        margin-top: 100px;
+        margin-left: 450px;
+        animation-name: welcome;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+      }
+      .btn{
+      
+        margin-left: 60px;
+    }
+
+ @media only screen and (max-width:450px){
+    
+    .btn{
+      
+        margin-left: 30px;
+    }
+    .body{
+        background-color: #0008ff;
+    }
+    
+    }
+} */
